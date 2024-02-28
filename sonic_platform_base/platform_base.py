@@ -9,7 +9,7 @@
 
 class PlatformBase(object):
 
-    def __init__(self):
+    def __init__(self, enable_set_log_level_on_fly=False):
         # ChassisBase-derived object representing the platform's chassis
         self._chassis = None
 
